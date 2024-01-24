@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Young Serif", serif;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: var(--eggshell);
+}
+p {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5rem;
+}
+.image {
+  margin-bottom: 2rem;
+}
+span {
+  color: var(--dark-charcoal);
+}
+li {
+  line-height: 1.5rem;
+  color: var(--wenge-brown);
+}
+.header-body {
+  margin-top: 1rem;
+}
+h2 {
+  color: var(--nutmeg);
+  font-family: "Young Serif", serif;
+}
+h1 {
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  color: var(--dark-charcoal);
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.container {
+  width: 500px;
+  height: 1950px;
+  background: var(--White);
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+img {
+  width: 100%;
+}
+
+.preparation {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--rose-white);
+}
+.preparation h3 {
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  color: var(--dark-raspberry);
+}
+.preparation ul {
+  margin-top: 0.8rem;
+  padding-left: 2rem;
+}
+.preparation li {
+  padding: 0.5rem;
+}
+.preparation li span {
+  font-weight: 600;
+}
+.ingredients h2 {
+  margin-bottom: 1rem;
+}
+.ingredients ul {
+  padding-left: 1.5rem;
+}
+.ingredients li {
+  padding: 0.5rem;
+}
+.intructions ul {
+  padding-left: 1.5rem;
+}
+.intructions li {
+  padding: 0.5rem;
+  list-style: decimal;
+}
+
+.intructions span {
+  font-weight: 600;
+}
+
+table {
+  margin-top: 1rem;
+}
+table {
+  margin-top: 2rem;
+  width: 100%;
+}
+table span {
+  color: var(--nutmeg);
+  font-weight: 900;
+}
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  text-align: end;
+}
+table hr {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  img {
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+}
